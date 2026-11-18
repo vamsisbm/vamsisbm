@@ -24,6 +24,12 @@ My cloud reference repositories live in [vamsi-cloudops](https://github.com/vams
 | [cloud-custodian-policies](https://github.com/vamsi-cloudops/cloud-custodian-policies) | Policy as code, tagging, security guardrails, and cost controls |
 | [terraform-multicloud](https://github.com/vamsi-cloudops/terraform-multicloud) | AWS and GCP infrastructure, reusable modules, IAM, networking, and EKS |
 
+## Hands-on labs
+
+| Repository | Focus |
+| --- | --- |
+| [eks-gpu-lab](https://github.com/vamsisbm/eks-gpu-lab) | NVIDIA GPU Operator on Amazon EKS with Helm: CUDA validation, GPU time-slicing (1 Tesla T4 shared as 4 schedulable GPUs), and DCGM metrics, run from AWS CloudShell, with troubleshooting notes (GPU vCPU quota, SCP blocks, device plugin crash) |
+
 ## Technical toolkit
 
 | Area | Technologies |
@@ -31,7 +37,7 @@ My cloud reference repositories live in [vamsi-cloudops](https://github.com/vams
 | Cloud | AWS, GCP, IAM, Organizations, SCPs, KMS, Secrets Manager, CloudTrail |
 | Infrastructure & governance | Terraform, Cloud Custodian, organization policies, tagging, drift detection |
 | Automation & delivery | Python, boto3, Flask, Bash, PowerShell, SQL, GitHub Actions, OIDC, Jenkins |
-| Containers | Docker, ECS, Kubernetes/EKS, Karpenter, KEDA |
+| Containers & GPU | Docker, ECS, Kubernetes/EKS, Helm, NVIDIA GPU Operator, DCGM, Karpenter, KEDA |
 | Cost & asset data | AWS Cost & Usage Report, Athena, S3, ServiceNow CMDB integration |
 
 ## Certifications
